@@ -1,13 +1,14 @@
-import './App.css';
-import Frontpage from './components/Frontpage';
-import Navbar from './components/Navbar';
-import Page1 from './components/Page1';
-import Page2 from './components/Page2';
+import './App.css'
+import Frontpage from './components/Frontpage'
+import Navbar from './components/Navbar'
+import Page1 from './components/Page1'
+import Page2 from './components/Page2'
 import {Route, Routes} from "react-router-dom"
 
 // CSS
-import './components/css/frontpage.css';
-import './components/css/navbar.css';
+import './components/css/frontpage.css'
+import './components/css/navbar.css'
+import './components/css/style.css'
 
 
 
