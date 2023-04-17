@@ -1,14 +1,23 @@
-import './App.css'
+import {Route, Routes} from "react-router-dom"
 import Frontpage from './components/Frontppage'
 import Navbar from './components/Navbar'
-import Page1 from './components/Page1'
-import Page2 from './components/Page2'
-import {Route, Routes} from "react-router-dom"
+import Modeller from './components/Modeller'
+import Metodeforretningsprocesser from './components/Metodeforretningsprocesser'
+import Processer from './components/Processer'
+import Dokumentationsreoler from './components/Dokumentationsreoler'
+import Dokumentationdrift from './components/Dokumentationdrift'
+import Dokumentationudvikling from './components/Dokumentationudvikling'
+import Qlm from './components/Qlm'
+import Forretningsgangehuset from './components/Forretningsgangehuset'
+import Contact from "./components/Contact"
 
 // CSS
+import './App.css'
 import './components/css/frontpage.css'
 import './components/css/navbar.css'
 import './components/css/style.css'
+import './components/css/responsive.css'
+
 
 
 
@@ -21,8 +30,15 @@ function App() {
       <div className='container'>
         <Routes>
           <Route path ="/" element={<Frontpage />} />
-          <Route path ="page1" element={<Page1 />} />
-          <Route path ="page2" element={<Page2 />} />
+          <Route path ="modeller" element={<Modeller />} />
+          <Route path ="metodeforretningsprocesser" element={<Metodeforretningsprocesser />} />
+          <Route path ="processer" element={<Processer />} />
+          <Route path ="dokumentationsreoler" element={<Dokumentationsreoler />} />
+          <Route path ="dokumentationdrift" element={<Dokumentationdrift />} />
+          <Route path ="dokumentationudvikling" element={<Dokumentationudvikling />} />
+          <Route path ="qlm" element={<Qlm />} />
+          <Route path ="forretningsgangehuset" element={<Forretningsgangehuset />} />
+          <Route path ="kontakt" element={<Contact />} />
         </Routes>
       </div>
       

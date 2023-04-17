@@ -1,11 +1,6 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import Searchmodal from "./Searchmodal"
-import logo_atp_sort from '../assets/logo_atp_sort.png'
 import {useState, useEffect} from 'react'
-
-
-
-
 
 
 function Navbar(){
@@ -29,10 +24,15 @@ function Navbar(){
 
     return (
         <nav className={navbar ? 'nav scrolled' : 'nav'}>
-            <Link to="/" id="nav-logo"><img src={logo_atp_sort} alt="logo" /></Link>
-            <ul>
-                <CustomLink to="/page1">Side 1</CustomLink>
-                <CustomLink to="/page2">Side 2</CustomLink>
+            <Link to="/" id="nav-logo"><img src={require('../assets/logo_atp_sort.png')} alt="logo" /></Link>
+            <ul className="hide-menu">
+                <CustomLink to="/modeller">Modeller</CustomLink>
+                <CustomLink to="/metodeforretningsprocesser">Metode for forretningsprocesser</CustomLink>
+                <CustomLink to="/processer">Processer</CustomLink>
+                <CustomLink to="/dokumentationsreoler">Dokumentationsreoler</CustomLink>
+                <CustomLink to="/qlm">QLM</CustomLink>
+                <CustomLink to="/forretningsgangehuset">Forretningsgange - sådan gør vi</CustomLink>
+                <CustomLink to="/kontakt">Kontakt os</CustomLink>
                 <Searchmodal />
             </ul>
         </nav>
