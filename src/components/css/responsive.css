@@ -45,10 +45,13 @@
 
 /* Laptop 1440px */
 @media (min-width: 1440px){
-
+    .menu-bar{
+        display: none !important;
+    }
 }
 @media (max-width:1439px){
     .hide-menu{
         display: none !important;
     }
+
 }

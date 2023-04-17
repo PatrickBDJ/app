@@ -63,15 +63,25 @@
 
 
 /* Search modal */
-#search-modal-btn{
+.nav-btn{
     font-size: 1.2rem;
     /* background: #82af82; */
     color: #000;
     border: none;
     width: 4rem;
 }
-#search-modal-btn:hover{
+.nav-btn:hover{
     background: #adc200;
     cursor:pointer;
     color: #fff;
 }
+
+/* .modal-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  } */

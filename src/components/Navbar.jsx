@@ -1,10 +1,23 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import Searchmodal from "./Searchmodal"
 import {useState, useEffect} from 'react'
+import {FaBars} from 'react-icons/fa'
+import Modal from 'react-modal'
+import Barmenu from "./Barmenu"
 
 
 function Navbar(){
     const [navbar, setNavbar] = useState(false)
+
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+
+    const openModal = () => {
+        setModalIsOpen(true);
+    };
+
+    const closeModal = () => {
+        setModalIsOpen(false);
+    };
 
 
     const changeScrolled = () => {
@@ -34,6 +47,14 @@ function Navbar(){
                 <CustomLink to="/forretningsgangehuset">Forretningsgange - sådan gør vi</CustomLink>
                 <CustomLink to="/kontakt">Kontakt os</CustomLink>
                 <Searchmodal />
+            </ul>
+            <ul className="menu-bar">
+                <button onClick={openModal} className="nav-btn menu-bar-btn"><FaBars/></button>
+                <Modal isOpen={modalIsOpen}
+                    onRequestClose={closeModal}
+                    contentLabel="bar-modal" ariaHideApp={false} /* portalclassName="modal-wrapper" */>
+                    <Barmenu/>
+                </Modal>
             </ul>
         </nav>
     )

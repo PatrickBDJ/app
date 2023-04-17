@@ -16,10 +16,10 @@ export default function Searchmodal(){
     
     return(
         <>
-            <button onClick={openModal} id="search-modal-btn"><BsSearch/></button>
+            <button onClick={openModal} className="nav-btn menu-search"><BsSearch/></button>
             <Modal isOpen={modalIsOpen}
             onRequestClose={closeModal}
-            contentLabel="Search modal" ariaHideApp={false} id="search-modal-style">
+            contentLabel="Search-modal" ariaHideApp={false}>
                 <Searchlist/>
             </Modal>
         </>
