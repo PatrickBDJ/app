@@ -10,6 +10,8 @@ import Dokumentationudvikling from './components/Dokumentationudvikling'
 import Qlm from './components/Qlm'
 import Forretningsgangehuset from './components/Forretningsgangehuset'
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
+
 
 // CSS
 import './App.css'
@@ -17,6 +19,7 @@ import './components/css/frontpage.css'
 import './components/css/navbar.css'
 import './components/css/style.css'
 import './components/css/responsive.css'
+import './components/css/footer.css'
 
 
 
@@ -41,7 +44,9 @@ function App() {
           <Route path ="kontakt" element={<Contact />} />
         </Routes>
       </div>
-      
+      <div className="footer-app-div">
+        <Footer/>
+      </div>
 
     </div>
   );

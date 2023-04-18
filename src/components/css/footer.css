@@ -1,0 +1,102 @@
+/* Footeren generelt */
+.footer-div{
+    background: #000;
+    opacity: 0.8;
+    color: #fff;
+    padding: 0 1.57em;
+    text-align: left;
+    line-height: 1.8em;
+}
+
+
+/* Footer logoet */
+.footer-logo{
+        padding-bottom: 0;
+}
+
+
+/* Footer dividere */
+.footer-divider{
+    border: 0.15em solid #adc200;
+    width: 2.13em;
+    margin-inline-start: 0;
+    margin: 2em 0;
+}
+
+
+/* Footer links */
+.footer-links{
+    font-weight: 700;
+}
+.footer-links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Footer nyhedsbrev */
+.footer-newsletter button{
+    border: 0;
+    background-color: #adc200;
+    padding: 1.32em 2.65em;
+    font-size: 1em;    
+}
+
+
+/* Sociale medier ikoner */
+.so-me-icons{
+    display: flex;
+    margin-top: 1.57em;
+}
+.so-me-icon{
+    padding: 0 1.2em 0 0;
+    width: auto;
+    height: auto;
+}
+.so-me-icon svg{
+    color: #fff;
+    width: 2.5em;
+    height: auto;
+}
+.so-me-icon svg:hover{
+    color: #adc200;
+}
+.so-me-icon svg:active{
+    color: #82af82;
+}
+
+
+/* Footer vigtige links */
+.footer-important-links{
+    font-size: 0.8em;
+    padding-top: 2em;
+}
+.footer-important-links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-important-links ul li{
+    margin: 0 1.6em 0 0;
+    padding: 0.2em 0;
+    display: inline-block;
+}
+.footer-important-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.footer-important-links ul li a:hover{
+    color: #adc200;
+}
+.footer-important-links ul li a:active{
+    color: #82af82;
+}
+
+
+

@@ -50,11 +50,11 @@
     color: #fff;
 }
 
-#nav-logo{
+.logo{
     padding: 1.8rem 0;
 }
 
-#nav-logo img{
+.logo img{
     /* padding: 1rem; */
     height: 1.8rem;
     width: auto;

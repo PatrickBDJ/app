@@ -37,7 +37,7 @@ function Navbar(){
 
     return (
         <nav className={navbar ? 'nav scrolled' : 'nav'}>
-            <Link to="/" id="nav-logo"><img src={require('../assets/logo_atp_sort.png')} alt="logo" /></Link>
+            <Link to="/" className="logo nav-logo"><img src={require('../assets/logo_atp_sort.png')} alt="logo navbar" /></Link>
             <ul className="hide-menu">
                 <CustomLink to="/modeller">Modeller</CustomLink>
                 <CustomLink to="/metodeforretningsprocesser">Metode for forretningsprocesser</CustomLink>
