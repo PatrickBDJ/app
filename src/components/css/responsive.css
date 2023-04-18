@@ -12,10 +12,23 @@
     }
 
 
-    /* Image behind */
+    /* Billede bag navbar */
     .image-zindex
     {
         z-index: -1;
+    }
+
+    /* Footeren */
+    .footer-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    } 
+    .footer-column{
+        flex-direction: column;
+    }
+    .footer-divider{
+        flex-direction: c;
     }
 }
 @media (max-width: 767px){

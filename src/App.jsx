@@ -20,6 +20,7 @@ import './components/css/navbar.css'
 import './components/css/style.css'
 import './components/css/responsive.css'
 import './components/css/footer.css'
+import './components/css/contact.css'
 
 
 
