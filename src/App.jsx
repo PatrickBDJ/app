@@ -9,7 +9,7 @@ import Dokumentationdrift from './components/Dokumentationdrift'
 import Dokumentationudvikling from './components/Dokumentationudvikling'
 import Qlm from './components/Qlm'
 import Forretningsgangehuset from './components/Forretningsgangehuset'
-import Contact from "./components/Contact"
+import Contact from "./components/Conttact"
 import Footer from "./components/Footer"
 
 

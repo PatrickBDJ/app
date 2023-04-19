@@ -39,14 +39,14 @@
 }
 
 .nav li.active{
-    background-color: #82af82;
+    background-color: #adc200;
     color: #fff;
 /*     text-decoration: underline;
     text-decoration-color: #adc200; */
 }
 
 .nav li:hover{
-    background-color: #adc200;
+    background-color: #82af82;
     color: #fff;
 }
 
