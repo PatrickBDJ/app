@@ -51,6 +51,22 @@
         height: 100% !important;
         width: 100% !important;
     }
+
+    /* Link bokse på forsiden */
+
+    .frontpage-link-box-three{
+        
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .frontpage-link-box-column{
+        margin: 0.5em 0.2em;
+        padding: 0;
+    }
+    .frontpage-link-box-column img, .frontpage-link-box-column h5{
+        margin: auto;
+    }
 }
 @media (max-width: 767px){
 

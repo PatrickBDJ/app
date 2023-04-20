@@ -1,8 +1,14 @@
+import {AiFillCloseSquare} from 'react-icons/ai'
 
 
-export default function Barmenu(){
+export default function Barmenu({ closeModal }){
     return (
-        <div>
+        <div className="bar-menu-div">
+            <div className="bar-menu-top">
+                <div className='bar-menu-logo-div logo nav-logo'><a href="/"><img src={require('../assets/logo_atp_sort.png')} alt="logo navbar" /></a></div>
+                <div className="bar-menu-close"><button onClick={closeModal}><AiFillCloseSquare/></button></div>
+            </div>
+
             <div className="bar-menu-content">
                 <ul className="bar-menu-modal-ul">
                     <li><a href="/">Forside</a></li>

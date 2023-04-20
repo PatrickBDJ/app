@@ -21,8 +21,8 @@ import './components/css/style.css'
 import './components/css/responsive.css'
 import './components/css/footer.css'
 import './components/css/contact.css'
-
-
+import './components/css/accordion.css'
+import './components/css/barmenu.css'
 
 
 function App() {

@@ -1,0 +1,26 @@
+
+
+.faq-header h2{
+    margin: 0;
+}
+
+
+
+
+
+.accordion{
+    margin-top: 0.5em;
+}
+.accordion-item{
+    margin: 0.4em 0;
+}
+.accordion-question{
+    padding: 0.5em 0 0.2em 0;
+    background: #adc200;
+    /* border-bottom: 0.5px black solid; */
+}
+.accordion-answer{
+    background: #82af82;
+    padding: 0.3em 0 0.5em 0;
+    border-top: #f3f3f3 0.2em solid;
+}

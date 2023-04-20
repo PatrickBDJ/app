@@ -68,10 +68,9 @@
 /* Search modal */
 .nav-btn{
     font-size: 1.2rem;
-    /* background: #82af82; */
     color: #000;
+    background-color: transparent;
     border: none;
-    width: 4rem;
 }
 .nav-btn:hover{
     background: #adc200;

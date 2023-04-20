@@ -49,12 +49,13 @@ function Navbar(){
                 <Searchmodal />
             </ul>
             <ul className="menu-bar">
-                <button onClick={openModal} className="nav-btn menu-bar-btn"><FaBars/></button>
+                
                 <Modal isOpen={modalIsOpen}
                     onRequestClose={closeModal}
-                    contentLabel="bar-modal" ariaHideApp={false} /* portalclassName="modal-wrapper" */>
-                    <Barmenu/>
+                    contentLabel="bar-modal" ariaHideApp={false} id="bar-modal">
+                    <Barmenu closeModal={closeModal}/>
                 </Modal>
+                <button onClick={openModal} className="nav-btn menu-bar-btn"><FaBars/></button>
             </ul>
         </nav>
     )

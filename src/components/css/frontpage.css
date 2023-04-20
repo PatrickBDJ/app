@@ -1,9 +1,58 @@
-.header h1{
-    color:red;
+.frontpage-header h1{
+    margin-bottom: 0.2em;
+}
+.frontpage-header p{
+    text-align: left;
+    margin: 0 1em 1em 1em;
+}
+
+.frontpage-content{
+    margin: 1em;
+}
+
+.frontpage-text{
+    margin: 2em 0 2em 0;
+}
+.frontpage-text p{
+    margin: 0 0 0.5em 0;
+}
+.frontpage-text h3{
+    margin: 0 0 0.5em 0;
+}
+
+/* Kasser med links til andre sider */
+.frontpage-link-box-column h5{
+    margin: 0;
+    border: 1px solid black;
+    padding: 0.2em;
+}
+.frontpage-link-box-column{
+    border: 1px solid black;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+.frontpage-link-box-column img{
+    border: 1px solid black;
+    width: 100%;
+}
+.frontpage-link-box-column a{
+    text-decoration: none;
+    color: #000;
+}
+.frontpage-link-box-column a:hover{
+    color: #adc200;
+
+}
+.frontpage-link-box-column a:active{
+    color: #82af82;
 }
 
 
-
+/* Bileder */
+.citron-small{
+    width: 6em;
+    height: auto;
+}
 #bird{
     width: 100%;
     height: 100%;
