@@ -48,15 +48,15 @@ function Navbar(){
                 <CustomLink to="/kontakt">Kontakt os</CustomLink>
                 <Searchmodal />
             </ul>
-            <ul className="menu-bar">
+            <div className="menu-bar">
                 
                 <Modal isOpen={modalIsOpen}
                     onRequestClose={closeModal}
                     contentLabel="bar-modal" ariaHideApp={false} id="bar-modal">
                     <Barmenu closeModal={closeModal}/>
                 </Modal>
-                <button onClick={openModal} className="nav-btn menu-bar-btn"><FaBars/></button>
-            </ul>
+                <button onClick={openModal} className="nav-btn"><FaBars/></button>
+            </div>
         </nav>
     )
 }

@@ -23,6 +23,7 @@ import './components/css/footer.css'
 import './components/css/contact.css'
 import './components/css/accordion.css'
 import './components/css/barmenu.css'
+import './components/css/subpages.css'
 
 
 function App() {

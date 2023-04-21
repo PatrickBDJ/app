@@ -67,6 +67,16 @@
     .frontpage-link-box-column img, .frontpage-link-box-column h5{
         margin: auto;
     }
+
+
+    /* Modeller siden */
+    .model-page-row{
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+    .model-page-column{
+        margin: 0 1em;
+    }
 }
 @media (max-width: 767px){
 

@@ -3,9 +3,10 @@
     background: #000;
     opacity: 0.8;
     color: #fff;
-    padding: 0 1.57em;
+    padding: 1em 1.57em 0.5em 1.57em;
     text-align: left;
     line-height: 1.8em;
+    margin-top: auto
 }
 
 

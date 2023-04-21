@@ -50,12 +50,15 @@
     color: #fff;
 }
 
-.logo{
+/* .logo{
     padding: 1.8rem 0;
-}
+} */
 
 .nav-logo{
     padding: 1.8em 0 !important;
+/*     display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 
 .logo img{
@@ -66,17 +69,27 @@
 
 
 /* Search modal */
+.menu-bar{
+    padding: 1.8em 0;
+}
 .nav-btn{
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: #000;
     background-color: transparent;
     border: none;
+/*     height: 100%; */
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav-btn:hover{
-    background: #adc200;
+    border-radius: 8px;
     cursor:pointer;
     color: #fff;
+    background: #adc200;
 }
+
 
 /* .modal-wrapper {
     position: fixed;
