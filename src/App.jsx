@@ -24,6 +24,7 @@ import './components/css/contact.css'
 import './components/css/accordion.css'
 import './components/css/barmenu.css'
 import './components/css/subpages.css'
+import './components/css/searchlist.css'
 
 
 function App() {

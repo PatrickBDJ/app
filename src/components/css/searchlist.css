@@ -1,0 +1,29 @@
+/* #search-input{
+    border: 1px solid black;
+} */
+
+.pages-links-search{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.search-input input{
+    text-align: center;
+    font-size: 1.5em;
+}
+.search-ul ul{
+    list-style: none;
+    margin: 0 1em;
+    padding: 2em 0;
+}
+.search-ul ul li{
+    margin-bottom: 3em;
+}
+.search-ul ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5em;
+}
+.search-ul ul li a:hover{
+    color: #adc200;
+}
