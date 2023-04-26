@@ -6,27 +6,51 @@ export default function Modeller(){
             <div className="model-page-row">
                 <div className="model-page-column">
                     <h3>Generelt om modeller</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, omnis hic numquam repellat minus sapiente. Nisi est debitis laboriosam libero nobis, iure animi quod ullam quam eos, nulla sunt incidunt ratione possimus, obcaecati eius exercitationem perspiciatis vitae commodi fugit consequatur cupiditate? Voluptates voluptate ut laboriosam beatae nobis iusto est dolor?</p>
+                    <p className="no-margin-p">Anvendelse af modeller giver overblik over en logisk sammenhæng af processer. Artefakter og værktøjer, der tilsammen tilvejebringer og formidler viden indenfor et bestemt område.
+                        <br /><br />
+                        I ATP har vi en række modeller fordi de også:
+                    </p>
+                    <ul>
+                        <li>Giver fælles sprog</li>
+                        <li>Giver rammer</li>
+                        <li>Sikrer ensartethed og genbrug</li>
+                        <li>Fremmer samarbejder</li>
+                        <li>Giver fleksibilitet og mobilitet</li>
+                        <li>Giver sikkerhed for at nå målet</li>
+                    </ul>
                 </div>
                 <div className="model-page-column">
                     <h3>ATP Leverancemodel</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime nesciunt debitis aperiam, corporis assumenda dolor laborum. At quos hic id doloremque recusandae delectus, dolor reprehenderit dolorem reiciendis vitae iste repellat earum a sint consectetur officia! Veniam ullam velit cum natus reprehenderit aliquam. Maxime vitae distinctio sequi nisi iure saepe?</p>
+                    <p>ATP Leverancemodel finder du via <span><a href="/">Huset - Sådan gør vi...</a></span>
+                    <br /><br />
+                    her udstilles dels vores governance for udviklingsporteføjlen, dels samler den alle de metoder og værktøjer som vi benytter til styring, udvikling og implementering. Det som før har været forankret i de tidligere modeller fx Udviklingsmodel, Projektmodel og Anskaffelsesmodel er samlet i ATP leverancemodel.
+                    </p>
                 </div>
             </div>
             <div className="model-page-row">
                 <div className="model-page-column">
                     <h3>Udvikling med ekstern leverandør</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, omnis hic numquam repellat minus sapiente. Nisi est debitis laboriosam libero nobis, iure animi quod ullam quam eos, nulla sunt incidunt ratione possimus, obcaecati eius exercitationem perspiciatis vitae commodi fugit consequatur cupiditate? Voluptates voluptate ut laboriosam beatae nobis iusto est dolor?</p>
+                    <p>Udvikling med ekstern leverandør for anskaffelse og videreudvikling af IT-løsninger til Administrationsforretningen - hos eksterne leverandører finder du i ATP Leverancemodel under Ekstern Leverandør.</p>
                 </div>
                 <div className="model-page-column">
                     <h3>Koncern Forandringsunivers</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur maxime nesciunt debitis aperiam, corporis assumenda dolor laborum. At quos hic id doloremque recusandae delectus, dolor reprehenderit dolorem reiciendis vitae iste repellat earum a sint consectetur officia! Veniam ullam velit cum natus reprehenderit aliquam. Maxime vitae distinctio sequi nisi iure saepe?</p>
+                    <p>Forandringsuniverset skal styrke ATP's implementeringskraft og involveringsgrad, når vi fx ændrer på systemer, processer, strategi og organisation.
+                    <br />
+                    Vi bruger forandringsuniverset som en hjælp til at sikre, at vi styrer sikkert igennem planlagte forandringer. Det er relevant for både små og store forandrigner og projekter.
+                    <br /><br />
+                    Forandringsuniverset finder du under ATP Leverancemodel. Værktøjskasser. Find ATP Leverancemodel i <span><a href="/">Huset - Sådan gør vi...</a></span>
+                    </p>
                 </div>
             </div>
             <div className="model-page-row">
                 <div className="model-page-column">
                     <h3>IT Operation Model (ITOM)</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, omnis hic numquam repellat minus sapiente. Nisi est debitis laboriosam libero nobis, iure animi quod ullam quam eos, nulla sunt incidunt ratione possimus, obcaecati eius exercitationem perspiciatis vitae commodi fugit consequatur cupiditate? Voluptates voluptate ut laboriosam beatae nobis iusto est dolor?</p>
+                    <p>
+                        IT-Operating Model (ITOM) finder du via <span><a href="/">Huset - Sådan gør vi... </a></span>
+                        under Koncern IT.
+                    <br /><br />
+                    ITOM er forside til IT samlede procesdokumentation, og giver et hurtigt overblik over en given proces - uanset hvor den er beskrevet.
+                    </p>
                 </div>
             </div>
         </div>

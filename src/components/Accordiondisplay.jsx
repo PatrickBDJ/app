@@ -8,7 +8,7 @@ return(
     <div className="accordion-item">
         <div className="accordion-question" onClick={() => setIsActive(!isActive)}>
             <div>{question}</div>
-            <div>{isActive ? '-' : '+'}</div>
+            <div className="accordion-symbol">{isActive ? '-' : '+'}</div>
         </div>
         {isActive && <div className="accordion-answer">{answer}</div>}
     </div>

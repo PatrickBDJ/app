@@ -10,17 +10,38 @@
 
 .accordion{
     margin-top: 0.5em;
+    text-align: left;
+}
+.accordion-symbol{
+    text-align: center;
 }
 .accordion-item{
     margin: 0.4em 0;
 }
 .accordion-question{
-    padding: 0.5em 0 0.2em 0;
+    padding: 0.5em 1em 0.2em 1em;
     background: #adc200;
     /* border-bottom: 0.5px black solid; */
 }
 .accordion-answer{
-    background: #82af82;
-    padding: 0.3em 0 0.5em 0;
-    border-top: #f3f3f3 0.2em solid;
+    background: #c8dcbe;
+    padding: 0.3em 1em 0.5em 1em;
+    display: flex;
+
+/*     border-top: #f3f3f3 0.2em solid; */
+/*     max-width: 75ch;
+    overflow-wrap: break-word; */
+}
+.accordion-link a{
+    text-decoration: none;
+/*     color: #adc200; */
+}
+.accordion-link a:hover{
+    text-decoration: underline;
+    color: #adc200;
+}
+.accordion-answer-p{
+    margin: 0;
+    padding: 0.5em 0;
+/*     border: 1px solid black; */
 }

@@ -25,9 +25,9 @@
     margin: 0 1em;
     padding: 2em 0;
 }
-.bar-menu-modal-ul li{
+/* .bar-menu-modal-ul li{
     margin-bottom: 3em;
-}
+} */
 .bar-menu-modal-ul li a{
     text-decoration: none;
     color: #000;
@@ -46,7 +46,6 @@
 /* .bar-menu-close{
     display: block;
 } */
-
 
 .bar-menu-btn{
     border: none;
@@ -68,4 +67,10 @@
 .bar-menu-btn svg{
     font-size: 1.5em;
     /* margin: auto; */
+}
+
+.barmenu-divider{
+    border: 0.15em solid #adc200;
+    /* width: 2.13em; */
+    margin: 2em auto;
 }

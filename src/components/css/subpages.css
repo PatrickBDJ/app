@@ -1,6 +1,7 @@
 .page-container{
     margin: 0 1em;
     min-height: 65vh;
+    overflow-wrap: break-word;
 }
 .page-container h1{
     margin-bottom: 1em;
@@ -21,7 +22,14 @@
 }
 
 #test-goats{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     padding: 0 0 2em 0;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+.no-margin-p{
+    margin: 0 !important;
 }

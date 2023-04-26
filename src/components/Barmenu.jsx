@@ -12,11 +12,17 @@ export default function Barmenu({ closeModal }){
             <div className="bar-menu-content">
                 <ul className="bar-menu-modal-ul">
                     <li><a href="/modeller">Modeller</a></li>
+                    <hr className='barmenu-divider'></hr>
                     <li><a href="/metodeforretningsprocesser">Metode for Forretningsgange</a></li>
+                    <hr className='barmenu-divider'></hr>
                     <li><a href="/processer">Processer</a></li>
+                    <hr className='barmenu-divider'></hr>
                     <li><a href="/dokumentationsreoler">Dokumentationsreoler</a></li>
+                    <hr className='barmenu-divider'></hr>
                     <li><a href="/qlm">Værktøj: QLM</a></li>
+                    <hr className='barmenu-divider'></hr>
                     <li><a href="/forretningsgangehuset">Forretningsgange - Sådan gør vi</a></li>
+                    <hr className='barmenu-divider'></hr>
                     <li><a href="/kontakt">Kontakt os</a></li>
                 </ul>
             </div>

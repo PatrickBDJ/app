@@ -4,7 +4,7 @@ import { Fzf } from "fzf";
 export default function Searchlist() {
   const [query, setQuery] = useState ('');
   const [results, setResults] = useState([]);
-  const [links, _setLinks] = useState([
+  const [links] = useState([
     { id: 1, url: "/modeller", label: "Modeller" },
     {
       id: 2,
