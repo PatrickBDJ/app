@@ -1,10 +1,11 @@
 export default function Processer(){
     return (
-    <div className="page-top-margin">
+    <div /* className="page-top-margin" */>
+        <div className='image-zindex'><img src={require('../assets/processer.jpg')} alt="modeller" className='page-top-image' /></div>
         <div className="page-container">
-            <h1>Processer</h1>
+            <h1 className='h1-no-margin-bottom'>Processer</h1>
             <div className="model-page-row">
-                <div className="model-page-column">
+                <div className="model-page-column model-page-column-full">
 {/*                     <h3>Generelt om modeller</h3> */}
                     <p>
                         På denne side finder du beskrivelse af hvordan ATP anvender processer til at forstå vores forretning samt anvendelse af Procestrekanten der i samspil beskriver en løsning for Administrationsforretningens ordninder/ydelser.
@@ -12,14 +13,16 @@ export default function Processer(){
                         Nederst finder du beskrivelse af intern governance for datakilder og link til definition af de 7 roller, der håndterer eksterne datakilder.
                     </p>
                 </div>
+            </div>
+            <div className="model-page-row">
                 <div className="model-page-column">
                     <h3>Dokumentation af processer</h3>
-                    <p>Dokumentation af processer understøtter retningslinjer for dokumentation af forretningsgange i ATP-koncernen. Retningslinjerne udgør den overordnede ramme og grundlag for metoderne til dokumentation af forretningsprocesser.
+                    <p className='no-margin-p'>Dokumentation af processer understøtter retningslinjer for dokumentation af forretningsgange i ATP-koncernen. Retningslinjerne udgør den overordnede ramme og grundlag for metoderne til dokumentation af forretningsprocesser.
                     <br /><br />
-                    Via <span><a href="/">Huset - Sådan gør vi... </a></span>
+                    Via <a href="/">Huset - Sådan gør vi... </a>
                     kan du bl.a. finde:
                     </p>
-                    <ul>
+                    <ul className='ul-default'>
                         <li>Forretningsgange der udstilles i procesoverblik pr. ordning/ydelse</li>
                         <li>IT Operating Model (under IT)</li>
                         <li>Cloud godkendelseproces.</li>
@@ -40,7 +43,9 @@ export default function Processer(){
                         Koblingen af proces, information og funktionalitet sikrer transparens i forretningen og giver bl.a. mulighed for styring og risikominimering ved ændringer i eksisterende løsninger.
                     </p>
                 </div>
-                <div className="model-page-column">
+            </div>
+            <div className="model-page-row">
+                <div className="model-page-column model-page-column-full">
                     <h3>Intern governance for datakilder</h3>
                     <p>
                         ATP indlæser store mængder data, og der er store risici for driften og ATP's omdømme forbundet med håndteringen af data. Derfor har det været nødvendigt med en kortlægning af governance for eksterne datakilder, med det formål at skabe overblik, fælles forståelse og definition af de roller, der håndterer eksterne datakilder.

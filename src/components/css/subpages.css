@@ -1,6 +1,6 @@
 .page-container{
     margin: 0 1em;
-    min-height: 65vh;
+    min-height: 100vh;
     overflow-wrap: break-word;
 }
 .page-container h1{
@@ -12,18 +12,65 @@
     flex-direction: column;
 }
 
+
+.model-page-column{
+    margin-bottom: 2em;
+}
 .model-page-column h3{
     margin: 0 0 0.5em 0;
     text-align: left;
 }
 .model-page-column p{
-    margin: 0 0 2.5em 0;
+/*     margin: 0 0 2.5em 0; */
     text-align: left;
 }
 
-#test-goats{
+.btn-flex{
+    display: flex;
+    margin-bottom: 1em;
+}
+/* .btn-flex button{
+    width: 50%;
+} */
+.link-btn{
+    border: 1px solid black;
+    padding: 1em;
+    margin: 0 0.1em;
+    text-decoration: none;
+    color: initial;
+}
+.italic-font{
+    font-style: italic;
+}
+
+.btn-flex-docu{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+
+
+.btn-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-btn-docu{
+    padding: 0.5em;
+    border: 1px solid black;
+    margin: 0.1em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+}
+
+
+.test-goats{
     width: 100%;
     height: 100%;
+    aspect-ratio: 1 / 1;
     padding: 0 0 2em 0;
 }
 
@@ -32,4 +79,27 @@
 }
 .no-margin-p{
     margin: 0 !important;
+}
+.margin-p{
+    margin: 1em 0 0 0 !important;
+}
+.ul-default{
+    margin: 0 !important;
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+.h1-no-margin-bottom{
+    margin-bottom: 0 !important;
+}
+.no-bottom-margin{
+    margin-bottom: 0 !important;
+}
+
+
+
+/* Banner med billede */
+.page-top-image{
+    width: 100%;
+    aspect-ratio: 3 / 2;
 }

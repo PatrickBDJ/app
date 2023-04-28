@@ -4,17 +4,13 @@
     margin: 0;
 }
 
-
-
-
-
 .accordion{
     margin-top: 0.5em;
-    text-align: left;
+    /* text-align: left; */
 }
-.accordion-symbol{
+/* .accordion-symbol{
     text-align: center;
-}
+} */
 .accordion-item{
     margin: 0.4em 0;
 }
@@ -27,6 +23,7 @@
     background: #c8dcbe;
     padding: 0.3em 1em 0.5em 1em;
     display: flex;
+    text-align: left;
 
 /*     border-top: #f3f3f3 0.2em solid; */
 /*     max-width: 75ch;

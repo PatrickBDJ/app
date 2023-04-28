@@ -23,8 +23,8 @@
 /* Kasser med links til andre sider */
 .frontpage-link-box-column h5{
     margin: 0;
-    border: 1px solid black;
-    padding: 0.2em;
+/*     border: 1px solid black; */
+    padding: 0.5em 0 1em 0;
 }
 .frontpage-link-box-column{
     border: 1px solid black;
@@ -32,7 +32,7 @@
     margin-bottom: 1em;
 }
 .frontpage-link-box-column img{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     width: 100%;
 }
 .frontpage-link-box-column a{
@@ -49,11 +49,12 @@
 
 
 /* Bileder */
-.citron-small{
+.frontpage-link-images{
     width: 6em;
     height: auto;
+    aspect-ratio: 3 / 2;
 }
-#bird{
+.frontpage-image{
     width: 100%;
     height: 100%;
 }

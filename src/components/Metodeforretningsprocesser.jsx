@@ -1,10 +1,11 @@
 export default function Metodeforretningsprocesser(){
     return (
-    <div className="page-top-margin">
+    <div /* className="page-top-margin" */>
+        <div className='image-zindex'><img src={require('../assets/metodeforforretningsprocesser.jpg')} alt="modeller" className='page-top-image' /></div>
         <div className="page-container">
-            <h1>Metode for forretningsprocesser</h1>
+            <h1 className='h1-no-margin-bottom'>Metode for forretningsprocesser</h1>
             <div className="model-page-row">
-                    <div className="model-page-column">
+                    <div className="model-page-column model-page-column-full">
                         {/* <h3>Generelt om modeller</h3> */}
                         <p>
                             Som udgangspunkt skal forretningsgange i ATP modelleres i QLM. Dette er besluttet af hensyn til standardisering, effektivisering og compliance.
@@ -26,23 +27,34 @@ export default function Metodeforretningsprocesser(){
 
                     </div> */}
                 </div>
-                <div className="model-page-row">
-                    <div className="model-page-column">
+                <div className="model-page-row no-bottom-margin">
+                    <div className="model-page-column no-bottom-margin">
  {/*                        <h3>Vejledning til QLM</h3> */}
-                        <img src={require ('../assets/goats.jpg')} alt="geder" id="test-goats"/>
-                        <p className='no-margin-p'><span className='text-underline'>Metoden består af tre elementer:</span></p>
-                        <ul>
-                            <li>Governance: der afgrænser administration og styring af metoden.</li>
-                            <br />
-                            <li>Generisk processtruktur: der danner rammerne for den strukturerede opbygning af forretningsprocesser på fastdefinerede procesniveauer og procesoverblik.</li>
-                            <br />
-                            <li>Procesmodellering: der er en ATP-tilpasset BPMN model og en artefakt procesmetode, der omhandler den visuelle fremstilling af forretningsprocesser.</li>
-                        </ul>
-                        <p>
-                            Metoden omfavner dokumentation af forretningsprocesser fra udvikling eller udbud til drift.
-                        </p>
-
+                        <div>
+                            <img src={require ('../assets/goats.jpg')} alt="geder" className="test-goats"/>
+                        </div>
                     </div>
+                    <div className="model-page-column no-bottom-margin">
+                        <div>
+                            <p className='no-margin-p'><span className='text-underline'>Metoden består af tre elementer:</span></p>
+                            <ul className='ul-default'>
+                                <li>Governance: der afgrænser administration og styring af metoden.</li>
+                                <br />
+                                <li>Generisk processtruktur: der danner rammerne for den strukturerede opbygning af forretningsprocesser på fastdefinerede procesniveauer og procesoverblik.</li>
+                                <br />
+                                <li>Procesmodellering: der er en ATP-tilpasset BPMN model og en artefakt procesmetode, der omhandler den visuelle fremstilling af forretningsprocesser.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="model-page-row">
+                    <div className="model-page-column model-page-column-full">
+                            <p className='no-margin-p'>
+                                Metoden omfavner dokumentation af forretningsprocesser fra udvikling eller udbud til drift.
+                            </p>
+                    </div>
+                </div>
+                <div className="model-page-row">
                     <div className="model-page-column">
                         <h3>Vejledning til QLM</h3>
                         <p>
@@ -50,7 +62,7 @@ export default function Metodeforretningsprocesser(){
                                 <a href="/">Instruktionsvideoer til QLM og GWE </a>
                                 (Governance Workflow Engine)
                             </span>
-                            <br />
+                            <br /><br />
                             <span>
                                 <a href="/">QLM opslagsværk </a>
                                 (skriftlig vejledning til QLM)
@@ -59,10 +71,10 @@ export default function Metodeforretningsprocesser(){
                     </div>
                 </div>
                 <div className="model-page-row">
-                    <div className="model-page-column">
+                    <div className="model-page-column model-page-column-full">
                         <h3>Compliance</h3>
                         <p className='no-margin-p'>Drifts- og projektrisiko har en kvalitetsansvarlig rolle for dokumentation af forretningsgange i:</p>
-                        <ul>
+                        <ul className='ul-default'>
                             <li>Administrationsforretningen.</li>
                             <li>Digital Solutions.</li>
                             <li>Corporate Functions & Business Support.</li>

@@ -5,7 +5,7 @@ function Frontpage(){
     return(
     <div className="frontpage-body">
         <div className='image-zindex'>
-            <img src={require('../assets/bird.jpg')} alt="fugl" id="bird" />
+            <img src={require('../assets/frontpage.jpg')} alt="afdelingen" className="frontpage-image page-top-image" />
         </div>
         <div className="page-header frontpage-header">
             <h1>QLM-team vidensdeling</h1>
@@ -24,20 +24,20 @@ function Frontpage(){
                 <div className="frontpage-link-box-three">
                     <div className="frontpage-link-box-column">
                         <a href="/modeller">
-                            <img src={require ('../assets/citron.jpg')} alt="" className='citron-small' />
+                            <img src={require ('../assets/modeller.jpg')} alt="modeller" className='frontpage-link-images' />
                             <h5>Modeller</h5>
                         </a>
                     </div>
                 
                     <div className="frontpage-link-box-column">
                         <a href="/forretningsprocesser">
-                            <img src={require ('../assets/citron.jpg')} alt="" className='citron-small' />
+                            <img src={require ('../assets/metodeforforretningsprocesser.jpg')} alt="metode for forretningsprocesser" className='frontpage-link-images' />
                             <h5>Metode for forretningsprocesser</h5>
                         </a>
                     </div>
                     <div className="frontpage-link-box-column">
                     <a href="/processer">
-                        <img src={require ('../assets/citron.jpg')} alt="" className='citron-small' />
+                        <img src={require ('../assets/processer.jpg')} alt="processer" className='frontpage-link-images' />
                         <h5>Processer</h5>
                         </a>
                     </div>
@@ -45,19 +45,19 @@ function Frontpage(){
                 <div className="frontpage-link-box-three">
                     <div className="frontpage-link-box-column">
                         <a href="/dokumentationsreoler">
-                            <img src={require ('../assets/citron.jpg')} alt="" className='citron-small' />
+                            <img src={require ('../assets/dokumentationsreol.jpg')} alt="" className='frontpage-link-images' />
                             <h5>Dokumentationsreoler</h5>
                             </a>
                         </div>
                     <div className="frontpage-link-box-column">
                         <a href="/qlm">
-                            <img src={require ('../assets/citron.jpg')} alt="" className='citron-small' />
+                            <img src={require ('../assets/qlm.jpg')} alt="" className='frontpage-link-images' />
                             <h5>Værktøj: QLM</h5>
                             </a>
                     </div>
                     <div className="frontpage-link-box-column">
                         <a href="/forretningsgangehuset">
-                            <img src={require ('../assets/citron.jpg')} alt="" className='citron-small' />
+                            <img src={require ('../assets/huset.jpg')} alt="" className='frontpage-link-images' />
                             <h5>Forretningsgange - Sådan gør vi</h5>
                         </a>
                     </div>

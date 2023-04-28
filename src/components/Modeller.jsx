@@ -1,7 +1,10 @@
 export default function Modeller(){
     return (
-    <div className="page-top-margin">
+    <>
+    <div className='image-zindex'><img src={require('../assets/modeller.jpg')} alt="modeller" className='page-top-image' /></div>
+    <div /* className="page-top-margin" */>
         <div className="page-container">
+        
             <h1>Modeller</h1>
             <div className="model-page-row">
                 <div className="model-page-column">
@@ -10,7 +13,7 @@ export default function Modeller(){
                         <br /><br />
                         I ATP har vi en række modeller fordi de også:
                     </p>
-                    <ul>
+                    <ul className="ul-default">
                         <li>Giver fælles sprog</li>
                         <li>Giver rammer</li>
                         <li>Sikrer ensartethed og genbrug</li>
@@ -21,7 +24,7 @@ export default function Modeller(){
                 </div>
                 <div className="model-page-column">
                     <h3>ATP Leverancemodel</h3>
-                    <p>ATP Leverancemodel finder du via <span><a href="/">Huset - Sådan gør vi...</a></span>
+                    <p className="no-margin-p">ATP Leverancemodel finder du via <span><a href="/">Huset - Sådan gør vi...</a></span>
                     <br /><br />
                     her udstilles dels vores governance for udviklingsporteføjlen, dels samler den alle de metoder og værktøjer som vi benytter til styring, udvikling og implementering. Det som før har været forankret i de tidligere modeller fx Udviklingsmodel, Projektmodel og Anskaffelsesmodel er samlet i ATP leverancemodel.
                     </p>
@@ -30,11 +33,11 @@ export default function Modeller(){
             <div className="model-page-row">
                 <div className="model-page-column">
                     <h3>Udvikling med ekstern leverandør</h3>
-                    <p>Udvikling med ekstern leverandør for anskaffelse og videreudvikling af IT-løsninger til Administrationsforretningen - hos eksterne leverandører finder du i ATP Leverancemodel under Ekstern Leverandør.</p>
+                    <p className="no-margin-p">Udvikling med ekstern leverandør for anskaffelse og videreudvikling af IT-løsninger til Administrationsforretningen - hos eksterne leverandører finder du i ATP Leverancemodel under Ekstern Leverandør.</p>
                 </div>
                 <div className="model-page-column">
                     <h3>Koncern Forandringsunivers</h3>
-                    <p>Forandringsuniverset skal styrke ATP's implementeringskraft og involveringsgrad, når vi fx ændrer på systemer, processer, strategi og organisation.
+                    <p className="no-margin-p">Forandringsuniverset skal styrke ATP's implementeringskraft og involveringsgrad, når vi fx ændrer på systemer, processer, strategi og organisation.
                     <br />
                     Vi bruger forandringsuniverset som en hjælp til at sikre, at vi styrer sikkert igennem planlagte forandringer. Det er relevant for både små og store forandrigner og projekter.
                     <br /><br />
@@ -43,9 +46,9 @@ export default function Modeller(){
                 </div>
             </div>
             <div className="model-page-row">
-                <div className="model-page-column">
+                <div className="model-page-column model-page-column-full">
                     <h3>IT Operation Model (ITOM)</h3>
-                    <p>
+                    <p className="no-margin-p">
                         IT-Operating Model (ITOM) finder du via <span><a href="/">Huset - Sådan gør vi... </a></span>
                         under Koncern IT.
                     <br /><br />
@@ -55,5 +58,6 @@ export default function Modeller(){
             </div>
         </div>
     </div>
+    </>
     )
 }

@@ -8,7 +8,10 @@
 
     /* Sider */
     .page-top-margin{
-        margin-top: 100px;
+        margin-top: 6.25em;
+    }
+    .page-container{
+        margin: 0 2em !important;
     }
 
 
@@ -26,12 +29,48 @@
     } 
     .footer-column{
         flex-direction: column;
+        width: 33%;
     }
     .footer-divider{
-        flex-direction: c;
+       /* margin-inline-start: auto !important; */
+       margin: 2em auto !important;
+    }
+    .hide-divider{
+        display: none !important;
+    }
+    .fake-footer-text{
+        display: block !important;
     }
 
-    /* Contact form */
+    /* Kontakt*/
+
+    .contact-information{
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
+/*     .contact-person{
+       align-items: center !important;
+        width: 33%;
+    } */
+
+/*     .contact-person-image{
+        display: flex;
+        justify-content: center;
+    }  */
+/*     .contact-person-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }  */
+/*     .contact-person-information{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  */
+
+
+
     .contact-form-div{
         flex-direction: row !important;
         margin: 0 1em;
@@ -52,17 +91,24 @@
         width: 100% !important;
     }
 
-    /* Link bokse på forsiden */
-
+    /* Forsiden */
+    .frontpage-header{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .frontpage-content{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
     .frontpage-link-box-three{
-        
         display: flex;
-        align-items: baseline;
+        align-items: center;
         justify-content: space-between;
     }
     .frontpage-link-box-column{
         margin: 0.5em 0.2em;
         padding: 0;
+        width: 33%;
     }
     .frontpage-link-box-column img, .frontpage-link-box-column h5{
         margin: auto;
@@ -76,7 +122,34 @@
     }
     .model-page-column{
         margin: 0 1em;
+        width: 50%;
     }
+    .model-page-column-full{
+        width: 100%;
+    }
+
+
+    /* Dokumentationsreoler drift */
+    .docu-drift{
+        display: block !important;
+    }
+    .btn-flex-docu{
+        flex-direction: row !important;
+    }
+    .btn-column{
+        width: 33%;
+    }
+    .btn-column a{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 3em;
+        margin: 1em 0.1em;
+    }
+
+    
+
+
 }
 @media (max-width: 767px){
 
@@ -91,8 +164,23 @@
     .nav {
         background-color: transparent;
     }
-    .nav.scrolled{
+/*     .nav.scrolled{
         background: purple;
+    } */
+
+    .page-container{
+        margin: 0 3em !important;
+    }
+
+
+    /* Forsiden */
+    .frontpage-header{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    .frontpage-content{
+        margin-left: 3em;
+        margin-right: 3em;
     }
 }
 @media (max-width: 1023px){

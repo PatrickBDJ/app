@@ -3,16 +3,25 @@
     background: #000;
     opacity: 0.8;
     color: #fff;
-    padding: 1em 1.57em 0.5em 1.57em;
+    padding: 2em 1.57em;
     text-align: left;
     line-height: 1.8em;
-    margin-top: auto
+    margin-top: auto;
 }
 
+.footer-column h3{
+    margin: 0;
+}
+
+.fake-footer-text{
+    color: #000;
+    opacity: 0.8;
+    display: none;
+}
 
 /* Footer logoet */
 .footer-logo{
-        padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 
@@ -26,7 +35,11 @@
 
 
 /* Footer links */
-.footer-links{
+.footer-column a{
+    color: #fff;
+}
+
+/* .footer-links{
     font-weight: 700;
 }
 .footer-links ul{
@@ -37,20 +50,20 @@
 .footer-links ul li a{
     color: #fff;
     text-decoration: none;
-}
+} */
 
 
 /* Footer nyhedsbrev */
-.footer-newsletter button{
+/* .footer-newsletter button{
     border: 0;
     background-color: #adc200;
     padding: 1.32em 2.65em;
     font-size: 1em;    
-}
+} */
 
 
 /* Sociale medier ikoner */
-.so-me-icons{
+/* .so-me-icons{
     display: flex;
     margin-top: 1.57em;
 }
@@ -69,7 +82,7 @@
 }
 .so-me-icon svg:active{
     color: #82af82;
-}
+} */
 
 
 /* Footer vigtige links */
