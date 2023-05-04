@@ -46,6 +46,11 @@ export default function Processer(){
             </div>
             <div className="model-page-row">
                 <div className="model-page-column model-page-column-full">
+                    <img src={require('../assets/graph-placeholder.png')} alt="graf stedtræder" className="test-goats" />
+                </div>
+            </div>
+            <div className="model-page-row">
+                <div className="model-page-column model-page-column-full">
                     <h3>Intern governance for datakilder</h3>
                     <p>
                         ATP indlæser store mængder data, og der er store risici for driften og ATP's omdømme forbundet med håndteringen af data. Derfor har det været nødvendigt med en kortlægning af governance for eksterne datakilder, med det formål at skabe overblik, fælles forståelse og definition af de roller, der håndterer eksterne datakilder.

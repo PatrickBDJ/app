@@ -33,7 +33,7 @@ export default function Qlm(){
                         </p>
                 </div>
                 <div className='model-page-column'>
-                        <img src={require('../assets/goats.jpg')} alt="geder" className='test-goats' />
+                        <img src={require('../assets/qlm-grafik.jpg')} alt="qlm grafik" className='test-goats' />
                 </div>
             </div>
             <div className="model-page-row">

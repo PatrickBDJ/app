@@ -12,7 +12,7 @@ export default function Forretningsgangehuset(){
                     </p>
                 </div>
                 <div className="model-page-column">
-                    <img src={require('../assets/goats.jpg')} alt="geder" className='test-goats'/>
+                    <img src={require('../assets/huset.png')} alt="huset grafik" className='test-goats'/>
                 </div>
             </div>
             <div className="model-page-row">

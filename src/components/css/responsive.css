@@ -161,6 +161,10 @@
 
 /* Laptop 1024px */
 @media (min-width: 1024px){
+    *{
+        font-size: 1.1rem;
+    }
+
     .nav {
         background-color: transparent;
     }
@@ -196,10 +200,26 @@
     .menu-bar{
         display: none !important;
     }
+    .page-container{
+        margin: 0 4em !important;
+    }
 }
+
 @media (max-width:1439px){
     .hide-menu{
         display: none !important;
     }
+
+}
+
+
+/* 4K 2560px */
+@media (min-width: 2560px){
+    .page-container{
+        margin: 0 5em !important;
+    }
+}
+
+@media (max-width:2560px){
 
 }

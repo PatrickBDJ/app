@@ -1,13 +1,17 @@
 import {useRef} from 'react'
 import emailjs from 'emailjs-com'
 import {CgProfile} from 'react-icons/cg'
+import toast, { Toaster } from 'react-hot-toast';
 
 
 export default function Contact(){
     const form = useRef()
 
+    /* const notify = () => toast('Here is your toast.'); */
+
     const sendEmail = (e) => {
         e.preventDefault()
+        toast.success('Tak for din henvendelse!');
 
         emailjs.sendForm(
             "service_io7sks3",
@@ -31,6 +35,7 @@ export default function Contact(){
     <div className="page-top-margin">
         <div className='contact-page-body'>
             <div className="contact-page-content">
+                
                 <h1>Kontakt os</h1>
                 <div className='contact-form-div'>
                     <div className='contact-form'>
@@ -50,6 +55,7 @@ export default function Contact(){
                             </div>
                             <div className='contact-form-column'>
                                 <button type='submit' value="Send">Send</button>
+                                <Toaster />
                             </div>
                         </form>
                     </div>

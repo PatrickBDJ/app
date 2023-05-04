@@ -31,7 +31,7 @@ export default function Metodeforretningsprocesser(){
                     <div className="model-page-column no-bottom-margin">
  {/*                        <h3>Vejledning til QLM</h3> */}
                         <div>
-                            <img src={require ('../assets/goats.jpg')} alt="geder" className="test-goats"/>
+                            <img src={require ('../assets/venn-diagram.jpg')} alt="venn diagram" className="test-goats"/>
                         </div>
                     </div>
                     <div className="model-page-column no-bottom-margin">

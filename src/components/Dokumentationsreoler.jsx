@@ -28,7 +28,7 @@ export default function Dokumentationsreoler(){
                 
                 <div className="model-page-row">
                     <div className="model-page-column">
-                        <img src={require('../assets/goats.jpg')} alt="geder" className='test-goats' />
+                        <img src={require('../assets/docu-shelf.jpg')} alt="dokumentationreol" className='test-goats' />
                     </div>
                     <div className="model-page-column">
                         <p className='no-margin-p'>

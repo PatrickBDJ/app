@@ -3,7 +3,6 @@ import { useState } from "react";
 const Accordiondisplay = ({question, answer}) => {
     const [isActive, setIsActive] = useState(false)
 
-
 return(
     <div className="accordion-item">
         <div className="accordion-question" onClick={() => setIsActive(!isActive)}>

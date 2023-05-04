@@ -31,9 +31,6 @@ export default function Accordion(){
         }
     ]
 
-
-    
-
     return (
     <div>
         <div className="faq-header">
@@ -45,6 +42,5 @@ export default function Accordion(){
             ))}
         </div>
     </div>
-
     )
 }
