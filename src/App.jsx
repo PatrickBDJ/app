@@ -11,6 +11,7 @@ import Qlm from './components/Qlm'
 import Forretningsgangehuset from './components/Forretningsgangehuset'
 import Contact from "./components/Conttact"
 import Footer from "./components/Footer"
+import ErrorPage from "./components/Error"
 
 
 // CSS
@@ -45,6 +46,7 @@ function App() {
           <Route path ="qlm" element={<Qlm />} />
           <Route path ="forretningsgangehuset" element={<Forretningsgangehuset />} />
           <Route path ="kontakt" element={<Contact />} />
+          <Route path ="error" element={<ErrorPage />} />
         </Routes>
       </div>
       <div className="footer-app-div">

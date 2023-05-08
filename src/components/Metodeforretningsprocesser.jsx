@@ -12,7 +12,7 @@ export default function Metodeforretningsprocesser(){
                             <br /><br />
                             Procesmetoden for dokumentation af forretningsgange angiver et fælles sprog, en ensartet struktur og en ensartet fremgangsmåde for dokumentation af forretningsgange.
                             <br />
-                            Metoden understøttes af <span><a href="/">QLM</a></span> og udnytter værktøjets intelligens fx ved genbrug.
+                            Metoden understøttes af <a href="/qlm">QLM</a> og udnytter værktøjets intelligens fx ved genbrug.
                             <br /><br />
 
                             Formålet med at dokumentere forretningsgange er "at sikre, at arbejdsopgaverne løses som besluttet samt at reducere ATP Koncernens risiko for operationelle fejl og compliance brud."
@@ -20,7 +20,7 @@ export default function Metodeforretningsprocesser(){
 
                             Forretningsgangene skal beskrive og skabe overblik over opgaverne samt identificere risici og beskrive kontroller og forretningsprocesser. Således bidrager forretningsgangene til en ensartet opgaveløsning samt giver en sikker og hurtig indførelse til opgaverne for nye medarbejdere.
                             <br />
-                            Se yderligere under: <span><a href="/">Vores ATP/Politikker og retningslinjer/Forretningsgange</a></span>
+                            Se yderligere under: <a href="/error">Vores ATP/Politikker og retningslinjer/Forretningsgange</a>
                         </p>
                     </div>
 {/*                     <div className="model-page-column">
@@ -58,15 +58,15 @@ export default function Metodeforretningsprocesser(){
                     <div className="model-page-column">
                         <h3>Vejledning til QLM</h3>
                         <p>
-                            <span>
-                                <a href="/">Instruktionsvideoer til QLM og GWE </a>
+                            
+                                <a href="https://rise.articulate.com/share/7NiR6lWwsBBcbifSWPOuezZ-WWY488qH#/" target="_blank" rel="noreferrer">Instruktionsvideoer til QLM og GWE </a>
                                 (Governance Workflow Engine)
-                            </span>
+                            
                             <br /><br />
-                            <span>
-                                <a href="/">QLM opslagsværk </a>
+                            
+                                <a href="https://articulateusercontent.com/rise/courses/LgL_xM-6Ku7rxYzZ_HB7ssFoOESaj2Hj/4LMX_OW2PhaVIMMj-QLM%2520vejledning.pdf" target="_blank" rel="noreferrer">QLM opslagsværk </a>
                                 (skriftlig vejledning til QLM)
-                            </span>
+                            
                         </p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ export default function Metodeforretningsprocesser(){
                             <li>Corporate Functions & Business Support.</li>
                         </ul>
                         <p>
-                            Complianceprocessen er et årligt tjek på gældende processer i drift (PROD). Her sikres det, at det mindst en gang om året dokumenteres, at der leves op til 'Retningslinjer for forretningsgange for ATP Koncernen'. Yderligere information vedr. forretningsgange samt retningslinjer finder du under <span><a href="/">Vores ATP/Politikker og retningslinjer/Forretningsgange.</a></span>
+                            Complianceprocessen er et årligt tjek på gældende processer i drift (PROD). Her sikres det, at det mindst en gang om året dokumenteres, at der leves op til 'Retningslinjer for forretningsgange for ATP Koncernen'. Yderligere information vedr. forretningsgange samt retningslinjer finder du under <a href="/error">Vores ATP/Politikker og retningslinjer/Forretningsgange.</a>
                             <br /><br />
                             Det årlige tjek resulterer i en afrapportering til OROC.
                         </p>

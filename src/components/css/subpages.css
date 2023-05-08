@@ -33,12 +33,28 @@
     width: 50%;
 } */
 .link-btn{
-    border: 1px solid black;
-    padding: 1em;
     margin: 0 0.1em;
     text-decoration: none;
     color: initial;
+    border: 0;
+    background-color: #adc200;
+    padding: 1.32em 2.65em;
+    font-size: 1em;  
+    font-weight: bold;
 }
+.link-btn:hover{
+    background-color: #82af82;
+    color: #fff;
+    cursor: pointer;
+}
+
+.error-page-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .italic-font{
     font-style: italic;
 }

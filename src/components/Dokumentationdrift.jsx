@@ -6,19 +6,19 @@ export default function Dokumentationdrift(){
             <div className="model-page-row docu-drift">
                 <div className="model-page-column model-page-column-full">
                     <p>
-                        Pension & Sikring <span><a href="/">P&S - Dokumentationsreoler og QLM portal</a></span>
+                        Pension & Sikring <a href="/error">P&S - Dokumentationsreoler og QLM portal</a>
                         <br /><br />
-                        Arbejdsmarkedets Erhvervsikring <span><a href="/">AES - Dokumentationsreol og QLM portal</a></span>
+                        Arbejdsmarkedets Erhvervsikring <a href="/error">AES - Dokumentationsreol og QLM portal</a>
                         <br /><br />
-                        Udbetaling Danmark Kommunal <span><a href="/">UDK K - Dokumentationsreoler og QLM portal</a></span>
+                        Udbetaling Danmark Kommunal <a href="/error">UDK K - Dokumentationsreoler og QLM portal</a>
                         <br /><br />
-                        Udbetaling Danmark Stat <span><a href="/">UDK S - Dokumentationsreoler og QLM portal</a></span>
+                        Udbetaling Danmark Stat <a href="/error">UDK S - Dokumentationsreoler og QLM portal</a>
                         <br /><br />
-                        Seniorpension <span><a href="/">Dokumentationsreol og QLM-portal</a></span>
+                        Seniorpension <a href="/error">Dokumentationsreol og QLM-portal</a>
                         <br /><br />
-                        ATP Koncern <span><a href="/">Tværgående QLM-portal med f.eks. huset med forretningsgange, leverancemodel, ITOM m.m.</a></span>
+                        ATP Koncern <a href="/error">Tværgående QLM-portal med f.eks. huset med forretningsgange, leverancemodel, ITOM m.m.</a>
                         <br /><br />
-                        BICC <span><a href="/">BICC QLM-portal - Dokumentation fra BICC</a></span>
+                        BICC <a href="/error">BICC QLM-portal - Dokumentation fra BICC</a>
                         <br /><br />
                         <span className="italic-font">PS: Første gang du logger på QLM Portalen vil du blive mødt af et logonvindue - Der er signle Sign on, så du skal blot trykke på "log på"-knappen.</span>
                     </p>
@@ -28,19 +28,19 @@ export default function Dokumentationdrift(){
                     <h3>Tværgående dokumentation</h3>
                     <div className="btn-flex-docu">
                         <div className="btn-column">
-                            <a href="/" className="link-btn-docu">NGDP</a>
-                            <a href="/" className="link-btn-docu">PHL Fordelerkomponent</a>
-                            <a href="/" className="link-btn-docu">RINA -EESSl</a>
+                            <a href="/error" className="link-btn-docu">NGDP</a>
+                            <a href="/error" className="link-btn-docu">PHL Fordelerkomponent</a>
+                            <a href="/error" className="link-btn-docu">RINA -EESSl</a>
                         </div>
                         <div className="btn-column">
-                            <a href="/" className="link-btn-docu">NetCompany - Dokumentation i QLM</a>
-                            <a href="/" className="link-btn-docu">Fjernprint Strålfors</a>
-                            <a href="/" className="link-btn-docu">Mit Overblik (UDK) </a>
+                            <a href="/error" className="link-btn-docu">NetCompany - Dokumentation i QLM</a>
+                            <a href="/error" className="link-btn-docu">Fjernprint Strålfors</a>
+                            <a href="/error" className="link-btn-docu">Mit Overblik (UDK) </a>
                         </div>
 
                         <div className="btn-column">
-                            <a href="/" className="link-btn-docu">Beriget Grunddata</a>
-                            <a href="/" className="link-btn-docu">Kombit</a>
+                            <a href="/error" className="link-btn-docu">Beriget Grunddata</a>
+                            <a href="/error" className="link-btn-docu">Kombit</a>
                         </div>
                     </div>
 

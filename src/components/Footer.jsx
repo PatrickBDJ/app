@@ -77,15 +77,15 @@ export default function Footer(){
         <div className='footer-block'> 
             <div className='footer-important-links'>
                 <ul>
-                    <li><a href="/">Behandling af personoplysninger</a></li>
-                    <li><a href="/">Politik for dataetik</a></li>
-                    <li><a href="/">Cookies på atp.dk</a></li>
-                    <li><a href="/">Tilgængelighedserklæring</a></li>
-                    <li><a href="/">Retningslinjer for markedssonderinger</a></li>
-                    <li><a href="/">Redegørelser fra Finanstilsynet</a></li>
-                    <li><a href="/">Whistleblower</a></li>
-                    <li><a href="/">ATP's pensionsprodukt</a></li>
-                    <li><a href="/">ATP's Pensions- og hensættelsesgrundlag</a></li>
+                    <li><a href="https://www.atp.dk/behandling-af-personoplysninger" target="_blank" rel="noreferrer">Behandling af personoplysninger</a></li>
+                    <li><a href="https://www.atp.dk/dataetik-i-atp" target="_blank" rel="noreferrer">Politik for dataetik</a></li>
+                    <li><a href="https://www.atp.dk/cookiepolitik" target="_blank" rel="noreferrer">Cookies på atp.dk</a></li>
+                    <li><a href="https://www.was.digst.dk/atp-dk" target="_blank" rel="noreferrer">Tilgængelighedserklæring</a></li>
+                    <li><a href="https://www.atp.dk/retningslinjer-markedssonderinger" target="_blank" rel="noreferrer">Retningslinjer for markedssonderinger</a></li>
+                    <li><a href="https://www.atp.dk/redegoerelser-fra-finanstilsynet" target="_blank" rel="noreferrer">Redegørelser fra Finanstilsynet</a></li>
+                    <li><a href="https://www.atp.dk/whistleblower" target="_blank" rel="noreferrer">Whistleblower</a></li>
+                    <li><a href="https://www.atp.dk/dokument/atps-pensionsprodukt" target="_blank" rel="noreferrer">ATP's pensionsprodukt</a></li>
+                    <li><a href="https://www.atp.dk/dokument/atps-pensions-og-hensaettelsesgrundlag" target="_blank" rel="noreferrer">ATP's Pensions- og hensættelsesgrundlag</a></li>
                 </ul>
             </div>
         </div>

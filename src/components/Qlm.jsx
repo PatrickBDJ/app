@@ -42,9 +42,9 @@ export default function Qlm(){
                     <p>
                         Her er links til alle QLM portaler med gældende dokumentation:
                         <br /><br />
-                        <a href="/">Base portaler</a>
+                        <a href="/error">Base portaler</a>
                         <br /><br />
-                        <a href="/">Development portaler</a>
+                        <a href="/error">Development portaler</a>
                     </p>
                 </div>
             </div>
@@ -65,9 +65,9 @@ export default function Qlm(){
                 <div className="model-page-column">
                     <h3>QLM vejledninger</h3>
                     <p>
-                        <a href="/">Instruktionsvideoer til QLM og GWE</a> (Governance Workflow Engine)
+                        <a href="https://rise.articulate.com/share/7NiR6lWwsBBcbifSWPOuezZ-WWY488qH#/" target='_blank' rel='noreferrer'>Instruktionsvideoer til QLM og GWE</a> (Governance Workflow Engine)
                         <br /><br />
-                        <a href="/">QLM opslagsværk</a> (skriftlig vejledning til QLM)
+                        <a href="https://articulateusercontent.com/rise/courses/LgL_xM-6Ku7rxYzZ_HB7ssFoOESaj2Hj/4LMX_OW2PhaVIMMj-QLM%2520vejledning.pdf" target='_blank' rel='noreferrer'>QLM opslagsværk</a> (skriftlig vejledning til QLM)
                     </p>
                 </div>
                 <div className="model-page-column">

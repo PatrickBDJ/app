@@ -1,6 +1,6 @@
 /* Kontaktformular + Google Maps embed */
 .contact-form-div{
-    border: 1em solid #c8dcbe;
+    border: 1em solid #f3f3f3 /* #c8dcbe */;
 	display: flex;
 	justify-content: center;
     flex-direction: column;
@@ -85,7 +85,7 @@
 }
 .contact-information{
     padding: 1em;
-    border: 1em solid #c8dcbe;
+    border: 1em solid #f3f3f3 /* #c8dcbe */;
     
     display: flex;
     flex-direction: column;
