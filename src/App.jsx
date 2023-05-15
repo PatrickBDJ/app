@@ -12,6 +12,7 @@ import Forretningsgangehuset from './components/Forretningsgangehuset'
 import Contact from "./components/Conttact"
 import Footer from "./components/Footer"
 import ErrorPage from "./components/Error"
+import ScrollToTop from "./components/ScrollToTop"
 
 
 // CSS
@@ -48,6 +49,7 @@ function App() {
           <Route path ="kontakt" element={<Contact />} />
           <Route path ="error" element={<ErrorPage />} />
         </Routes>
+        <ScrollToTop/>
       </div>
       <div className="footer-app-div">
         <Footer/>
