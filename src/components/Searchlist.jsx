@@ -5,26 +5,26 @@ export default function Searchlist() {
   const [query, setQuery] = useState ('');
   const [results, setResults] = useState([]);
   const [links] = useState([
-    { id: 1, url: "/modeller", label: "Modeller" },
+    { id: 1, url: "/app/modeller", label: "Modeller" },
     {
       id: 2,
-      url: "/metodeforretningsprocesser",
+      url: "/app/metodeforretningsprocesser",
       label: "Metode for forretningsprocesser",
     },
     { id: 3, 
-      url: "/processer", 
+      url: "/app/processer", 
       label: "Processer" },
     { id: 4, 
-      url: "/dokumentationsreoler", 
+      url: "/app/dokumentationsreoler", 
       label: "Dokumentationsreoler" },
     { id: 5, 
-      url: "/qlm", 
+      url: "/app/qlm", 
       label: "Værktøj: QLM" },
     { id: 6, 
-      url: "/forretningsgangehuset", 
+      url: "/app/forretningsgangehuset", 
       label: "Forretningsgange - Sådan gør vi" },
     { id: 7, 
-      url: "/kontakt", 
+      url: "/app/kontakt", 
       label: "Kontakt os" }
   ]);
 

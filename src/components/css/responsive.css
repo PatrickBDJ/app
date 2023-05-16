@@ -186,6 +186,14 @@
         margin-left: 3em;
         margin-right: 3em;
     }
+
+    .frontpage-link-box-column h5{
+        min-height: 75px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
 @media (max-width: 1023px){
 
