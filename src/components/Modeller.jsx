@@ -24,7 +24,7 @@ export default function Modeller(){
                 </div>
                 <div className="model-page-column">
                     <h3>ATP Leverancemodel</h3>
-                    <p className="no-margin-p">ATP Leverancemodel finder du via <a href="/forretningsgangehuset">Huset - Sådan gør vi...</a>
+                    <p className="no-margin-p">ATP Leverancemodel finder du via <a href="/app/forretningsgangehuset">Huset - Sådan gør vi...</a>
                     <br /><br />
                     her udstilles dels vores governance for udviklingsporteføjlen, dels samler den alle de metoder og værktøjer som vi benytter til styring, udvikling og implementering. Det som før har været forankret i de tidligere modeller fx Udviklingsmodel, Projektmodel og Anskaffelsesmodel er samlet i ATP leverancemodel.
                     </p>
@@ -41,7 +41,7 @@ export default function Modeller(){
                     <br />
                     Vi bruger forandringsuniverset som en hjælp til at sikre, at vi styrer sikkert igennem planlagte forandringer. Det er relevant for både små og store forandrigner og projekter.
                     <br /><br />
-                    Forandringsuniverset finder du under ATP Leverancemodel. Værktøjskasser. Find ATP Leverancemodel i <a href="/forretningsgangehuset">Huset - Sådan gør vi...</a>
+                    Forandringsuniverset finder du under ATP Leverancemodel. Værktøjskasser. Find ATP Leverancemodel i <a href="/app/forretningsgangehuset">Huset - Sådan gør vi...</a>
                     </p>
                 </div>
             </div>
@@ -49,7 +49,7 @@ export default function Modeller(){
                 <div className="model-page-column model-page-column-full">
                     <h3>IT Operation Model (ITOM)</h3>
                     <p className="no-margin-p">
-                        IT-Operating Model (ITOM) finder du via <a href="/forretningsgangehuset">Huset - Sådan gør vi... </a>
+                        IT-Operating Model (ITOM) finder du via <a href="/app/forretningsgangehuset">Huset - Sådan gør vi... </a>
                         under Koncern IT.
                     <br /><br />
                     ITOM er forside til IT samlede procesdokumentation, og giver et hurtigt overblik over en given proces - uanset hvor den er beskrevet.

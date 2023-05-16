@@ -29,7 +29,7 @@ export default function Qlm(){
                         <p>
                             QLM indeholder mange typer af diagrammer og symboler samt mulighed for relationer og genbrug.
                             <br /><br />
-                            Via <a href="/">Huset - Sådan gør vi...</a> kan navigere mellem de forskellige QLM repositories ved at klikke på de relevante områder. Du kan navigere mellem QLM base (=prod) og development (=udvikling) via Profil ikonet i øverste højre hjørne.
+                            Via <a href="/app">Huset - Sådan gør vi...</a> kan navigere mellem de forskellige QLM repositories ved at klikke på de relevante områder. Du kan navigere mellem QLM base (=prod) og development (=udvikling) via Profil ikonet i øverste højre hjørne.
                         </p>
                 </div>
                 <div className='model-page-column'>
@@ -42,9 +42,9 @@ export default function Qlm(){
                     <p>
                         Her er links til alle QLM portaler med gældende dokumentation:
                         <br /><br />
-                        <a href="/error">Base portaler</a>
+                        <a href="/app/error">Base portaler</a>
                         <br /><br />
-                        <a href="/error">Development portaler</a>
+                        <a href="/app/error">Development portaler</a>
                     </p>
                 </div>
             </div>

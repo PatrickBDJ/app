@@ -42,8 +42,8 @@ export default function Dokumentationsreoler(){
                     <div className="model-page-column model-page-column-full">
                         <h3>De faktiske dokumentationsreoler</h3>
                         <div className='btn-flex'>
-                            <a className='link-btn' href='/dokumentationdrift'>Dokumentation - gældende i drift</a>
-                            <a className='link-btn'  href='/dokumentationudvikling'>Dokumentation - udvikling på vej</a>
+                            <a className='link-btn' href='/app/dokumentationdrift'>Dokumentation - gældende i drift</a>
+                            <a className='link-btn'  href='/app/dokumentationudvikling'>Dokumentation - udvikling på vej</a>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ export default function Processer(){
                     <h3>Dokumentation af processer</h3>
                     <p className='no-margin-p'>Dokumentation af processer understøtter retningslinjer for dokumentation af forretningsgange i ATP-koncernen. Retningslinjerne udgør den overordnede ramme og grundlag for metoderne til dokumentation af forretningsprocesser.
                     <br /><br />
-                    Via <a href="/forretningsgangehuset">Huset - Sådan gør vi... </a>
+                    Via <a href="/app/forretningsgangehuset">Huset - Sådan gør vi... </a>
                     kan du bl.a. finde:
                     </p>
                     <ul className='ul-default'>
@@ -30,7 +30,7 @@ export default function Processer(){
                         <li>Security management m.m.</li>
                     </ul>
                     <p>
-                        Administrationsforretningens forretningsprocesser modelleres i QLM og relaterer til relevant dokumentation jf. procestrekanten. Ordninger/ydelsers samlede forretnings- og systemdokumentation udstilles via et tværgående Dokumentationskatalog og en ordningsspecifik Dokumentationsreol. Læs yderligere information under <a href="/dokumentationsreoler">Dokumentationsreoler.</a>
+                        Administrationsforretningens forretningsprocesser modelleres i QLM og relaterer til relevant dokumentation jf. procestrekanten. Ordninger/ydelsers samlede forretnings- og systemdokumentation udstilles via et tværgående Dokumentationskatalog og en ordningsspecifik Dokumentationsreol. Læs yderligere information under <a href="/app/dokumentationsreoler">Dokumentationsreoler.</a>
                     </p>
                 </div>
                 <div className="model-page-column">
