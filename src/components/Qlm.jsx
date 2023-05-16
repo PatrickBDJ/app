@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Qlm(){
     return ( 
         <div className="page-top-margin">
@@ -29,7 +31,7 @@ export default function Qlm(){
                         <p>
                             QLM indeholder mange typer af diagrammer og symboler samt mulighed for relationer og genbrug.
                             <br /><br />
-                            Via <a href="/app">Huset - Sådan gør vi...</a> kan navigere mellem de forskellige QLM repositories ved at klikke på de relevante områder. Du kan navigere mellem QLM base (=prod) og development (=udvikling) via Profil ikonet i øverste højre hjørne.
+                            Via <Link to="/forretningsgangehuset">Huset - Sådan gør vi...</Link> kan navigere mellem de forskellige QLM repositories ved at klikke på de relevante områder. Du kan navigere mellem QLM base (=prod) og development (=udvikling) via Profil ikonet i øverste højre hjørne.
                         </p>
                 </div>
                 <div className='model-page-column'>
@@ -42,9 +44,9 @@ export default function Qlm(){
                     <p>
                         Her er links til alle QLM portaler med gældende dokumentation:
                         <br /><br />
-                        <a href="/app/error">Base portaler</a>
+                        <Link to="/error">Base portaler</Link>
                         <br /><br />
-                        <a href="/app/error">Development portaler</a>
+                        <Link to="/error">Development portaler</Link>
                     </p>
                 </div>
             </div>

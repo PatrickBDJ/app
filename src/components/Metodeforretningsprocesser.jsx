@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Metodeforretningsprocesser(){
     return (
     <div /* className="page-top-margin" */>
@@ -12,7 +14,7 @@ export default function Metodeforretningsprocesser(){
                             <br /><br />
                             Procesmetoden for dokumentation af forretningsgange angiver et fælles sprog, en ensartet struktur og en ensartet fremgangsmåde for dokumentation af forretningsgange.
                             <br />
-                            Metoden understøttes af <a href="/app/qlm">QLM</a> og udnytter værktøjets intelligens fx ved genbrug.
+                            Metoden understøttes af <Link to="/qlm">QLM</Link> og udnytter værktøjets intelligens fx ved genbrug.
                             <br /><br />
 
                             Formålet med at dokumentere forretningsgange er "at sikre, at arbejdsopgaverne løses som besluttet samt at reducere ATP Koncernens risiko for operationelle fejl og compliance brud."
@@ -20,7 +22,7 @@ export default function Metodeforretningsprocesser(){
 
                             Forretningsgangene skal beskrive og skabe overblik over opgaverne samt identificere risici og beskrive kontroller og forretningsprocesser. Således bidrager forretningsgangene til en ensartet opgaveløsning samt giver en sikker og hurtig indførelse til opgaverne for nye medarbejdere.
                             <br />
-                            Se yderligere under: <a href="/app/error">Vores ATP/Politikker og retningslinjer/Forretningsgange</a>
+                            Se yderligere under: <Link to="/error">Vores ATP/Politikker og retningslinjer/Forretningsgange</Link>
                         </p>
                     </div>
 {/*                     <div className="model-page-column">
@@ -80,7 +82,7 @@ export default function Metodeforretningsprocesser(){
                             <li>Corporate Functions & Business Support.</li>
                         </ul>
                         <p>
-                            Complianceprocessen er et årligt tjek på gældende processer i drift (PROD). Her sikres det, at det mindst en gang om året dokumenteres, at der leves op til 'Retningslinjer for forretningsgange for ATP Koncernen'. Yderligere information vedr. forretningsgange samt retningslinjer finder du under <a href="/app/error">Vores ATP/Politikker og retningslinjer/Forretningsgange.</a>
+                            Complianceprocessen er et årligt tjek på gældende processer i drift (PROD). Her sikres det, at det mindst en gang om året dokumenteres, at der leves op til 'Retningslinjer for forretningsgange for ATP Koncernen'. Yderligere information vedr. forretningsgange samt retningslinjer finder du under <Link to="/error">Vores ATP/Politikker og retningslinjer/Forretningsgange.</Link>
                             <br /><br />
                             Det årlige tjek resulterer i en afrapportering til OROC.
                         </p>

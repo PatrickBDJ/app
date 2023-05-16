@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function Dokumentationdrift(){
     return (
         <div className="page-top-margin">
@@ -6,19 +8,19 @@ export default function Dokumentationdrift(){
             <div className="model-page-row docu-drift">
                 <div className="model-page-column model-page-column-full">
                     <p>
-                        Pension & Sikring <a href="/app/error">P&S - Dokumentationsreoler og QLM portal</a>
+                        Pension & Sikring <Link to="/error">P&S - Dokumentationsreoler og QLM portal</Link>
                         <br /><br />
-                        Arbejdsmarkedets Erhvervsikring <a href="/app/error">AES - Dokumentationsreol og QLM portal</a>
+                        Arbejdsmarkedets Erhvervsikring <Link to="/error">AES - Dokumentationsreol og QLM portal</Link>
                         <br /><br />
-                        Udbetaling Danmark Kommunal <a href="/app/error">UDK K - Dokumentationsreoler og QLM portal</a>
+                        Udbetaling Danmark Kommunal <Link to="/error">UDK K - Dokumentationsreoler og QLM portal</Link>
                         <br /><br />
-                        Udbetaling Danmark Stat <a href="/app/error">UDK S - Dokumentationsreoler og QLM portal</a>
+                        Udbetaling Danmark Stat <Link to="/error">UDK S - Dokumentationsreoler og QLM portal</Link>
                         <br /><br />
-                        Seniorpension <a href="/app/error">Dokumentationsreol og QLM-portal</a>
+                        Seniorpension <Link to="/error">Dokumentationsreol og QLM-portal</Link>
                         <br /><br />
-                        ATP Koncern <a href="/app/error">Tværgående QLM-portal med f.eks. huset med forretningsgange, leverancemodel, ITOM m.m.</a>
+                        ATP Koncern <Link to="/error">Tværgående QLM-portal med f.eks. huset med forretningsgange, leverancemodel, ITOM m.m.</Link>
                         <br /><br />
-                        BICC <a href="/app/error">BICC QLM-portal - Dokumentation fra BICC</a>
+                        BICC <Link to="/error">BICC QLM-portal - Dokumentation fra BICC</Link>
                         <br /><br />
                         <span className="italic-font">PS: Første gang du logger på QLM Portalen vil du blive mødt af et logonvindue - Der er signle Sign on, så du skal blot trykke på "log på"-knappen.</span>
                     </p>
@@ -28,19 +30,19 @@ export default function Dokumentationdrift(){
                     <h3>Tværgående dokumentation</h3>
                     <div className="btn-flex-docu">
                         <div className="btn-column">
-                            <a href="/app/error" className="link-btn-docu">NGDP</a>
-                            <a href="/app/error" className="link-btn-docu">PHL Fordelerkomponent</a>
-                            <a href="/app/error" className="link-btn-docu">RINA -EESSl</a>
+                            <Link to="/error" className="link-btn-docu">NGDP</Link>
+                            <Link to="/error" className="link-btn-docu">PHL Fordelerkomponent</Link>
+                            <Link to="/error" className="link-btn-docu">RINA -EESSl</Link>
                         </div>
                         <div className="btn-column">
-                            <a href="/app/error" className="link-btn-docu">NetCompany - Dokumentation i QLM</a>
-                            <a href="/app/error" className="link-btn-docu">Fjernprint Strålfors</a>
-                            <a href="/app/error" className="link-btn-docu">Mit Overblik (UDK) </a>
+                            <Link to="/error" className="link-btn-docu">NetCompany - Dokumentation i QLM</Link>
+                            <Link to="/error" className="link-btn-docu">Fjernprint Strålfors</Link>
+                            <Link to="/error" className="link-btn-docu">Mit Overblik (UDK) </Link>
                         </div>
 
                         <div className="btn-column">
-                            <a href="/app/error" className="link-btn-docu">Beriget Grunddata</a>
-                            <a href="/app/error" className="link-btn-docu">Kombit</a>
+                            <Link to="/error" className="link-btn-docu">Beriget Grunddata</Link>
+                            <Link to="/error" className="link-btn-docu">Kombit</Link>
                         </div>
                     </div>
 

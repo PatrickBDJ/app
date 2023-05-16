@@ -1,30 +1,32 @@
 import { useState, useCallback } from "react";
 import { Fzf } from "fzf";
+import { Link } from "react-router-dom";
 
-export default function Searchlist() {
+
+export default function Searchlist({ closeModal }) {
   const [query, setQuery] = useState ('');
   const [results, setResults] = useState([]);
   const [links] = useState([
-    { id: 1, url: "/app/modeller", label: "Modeller" },
+    { id: 1, url: "/modeller", label: "Modeller" },
     {
       id: 2,
-      url: "/app/metodeforretningsprocesser",
+      url: "/metodeforretningsprocesser",
       label: "Metode for forretningsprocesser",
     },
     { id: 3, 
-      url: "/app/processer", 
+      url: "/processer", 
       label: "Processer" },
     { id: 4, 
-      url: "/app/dokumentationsreoler", 
+      url: "/dokumentationsreoler", 
       label: "Dokumentationsreoler" },
     { id: 5, 
-      url: "/app/qlm", 
+      url: "/qlm", 
       label: "Værktøj: QLM" },
     { id: 6, 
-      url: "/app/forretningsgangehuset", 
+      url: "/forretningsgangehuset", 
       label: "Forretningsgange - Sådan gør vi" },
     { id: 7, 
-      url: "/app/kontakt", 
+      url: "/kontakt", 
       label: "Kontakt os" }
   ]);
 
@@ -53,13 +55,13 @@ export default function Searchlist() {
                 {!query &&
                 links?.map((link) => (
                     <li key={link.id}>
-                    <a href={link.url}>{link.label}</a>
+                    <Link to={link.url} onClick={closeModal}>{link.label}</Link>
                     </li>
                 ))}
                 {query &&
                 results.map((link) => (
                     <li key={link.id}>
-                    <a href={link.url}>{link.label}</a>
+                    <Link to={link.url} onClick={closeModal}>{link.label}</Link>
                     </li>
                 ))}
             </ul>

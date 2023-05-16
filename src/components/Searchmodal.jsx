@@ -20,7 +20,7 @@ export default function Searchmodal(){
             <Modal isOpen={modalIsOpen}
             onRequestClose={closeModal}
             contentLabel="Search-modal" ariaHideApp={false}>
-                <Searchlist/>
+                <Searchlist closeModal={closeModal}/>
             </Modal>
         </>
     )

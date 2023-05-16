@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Dokumentationsreoler(){
     return(
         <div /* className="page-top-margin" */>
@@ -42,8 +44,8 @@ export default function Dokumentationsreoler(){
                     <div className="model-page-column model-page-column-full">
                         <h3>De faktiske dokumentationsreoler</h3>
                         <div className='btn-flex'>
-                            <a className='link-btn' href='/app/dokumentationdrift'>Dokumentation - gældende i drift</a>
-                            <a className='link-btn'  href='/app/dokumentationudvikling'>Dokumentation - udvikling på vej</a>
+                            <Link className='link-btn' to='/dokumentationdrift'>Dokumentation - gældende i drift</Link>
+                            <Link className='link-btn'  to='/dokumentationudvikling'>Dokumentation - udvikling på vej</Link>
                         </div>
                     </div>
                 </div>
