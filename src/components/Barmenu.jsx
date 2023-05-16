@@ -13,7 +13,7 @@ export default function Barmenu({ closeModal }){
             <div className="bar-menu-content">
                 <ul className="bar-menu-modal-ul">
                     <li><a href="/app/modeller">Modeller</a></li>
-                    <li><Link to="/modeller">Modeller</Link></li>
+{/*                     <li><Link to="/modeller">Modeller</Link></li> */}
                     <hr className='barmenu-divider'></hr>
                     <li><a href="/app/metodeforretningsprocesser">Metode for Forretningsgange</a></li>
                     <hr className='barmenu-divider'></hr>
