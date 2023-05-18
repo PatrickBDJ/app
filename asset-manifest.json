@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.f6360566.css",
-    "main.js": "/app/static/js/main.53bca364.js",
+    "main.css": "/app/static/css/main.60092d5a.css",
+    "main.js": "/app/static/js/main.c23fcb54.js",
     "static/js/787.c1112931.chunk.js": "/app/static/js/787.c1112931.chunk.js",
     "static/media/processer.jpg": "/app/static/media/processer.7fecf7a78d6fb0a0d0d6.jpg",
     "static/media/frontpage.jpg": "/app/static/media/frontpage.fd459c4204a7dc13d8a7.jpg",
     "static/media/metodeforforretningsprocesser.jpg": "/app/static/media/metodeforforretningsprocesser.3c88cbcebfe748cdc033.jpg",
+    "static/media/metodeforforretningsprocesser-banner.png": "/app/static/media/metodeforforretningsprocesser-banner.e2a9c41e1fe05f940e9c.png",
     "static/media/dokumentationsreol.jpg": "/app/static/media/dokumentationsreol.14ee46a295d395087598.jpg",
     "static/media/qlm.jpg": "/app/static/media/qlm.6727ac43d8da617c01f5.jpg",
     "static/media/huset.jpg": "/app/static/media/huset.aea6bc10b4f895c2d45b.jpg",
     "static/media/modeller.jpg": "/app/static/media/modeller.a564c82f590a80069f03.jpg",
     "static/media/venn-diagram.jpg": "/app/static/media/venn-diagram.400542dd3f5ecca5c430.jpg",
+    "static/media/dokumentationsreol-banner.jpg": "/app/static/media/dokumentationsreol-banner.9000957cb47aab934a26.jpg",
+    "static/media/modeller-banner.jpg": "/app/static/media/modeller-banner.35af86f9efd2c8c2f2bd.jpg",
     "static/media/docu-shelf.jpg": "/app/static/media/docu-shelf.450c591fe7a251fec6b4.jpg",
+    "static/media/processer-banner.jpg": "/app/static/media/processer-banner.7338295158e39f5add08.jpg",
     "static/media/qlm-grafik.jpg": "/app/static/media/qlm-grafik.40d3410f0989904fa988.jpg",
     "static/media/graph-placeholder.png": "/app/static/media/graph-placeholder.25a019289b6953bc715e.png",
     "static/media/huset.png": "/app/static/media/huset.b592363fd7fa3833338c.png",
     "index.html": "/app/index.html",
-    "main.f6360566.css.map": "/app/static/css/main.f6360566.css.map",
-    "main.53bca364.js.map": "/app/static/js/main.53bca364.js.map",
+    "main.60092d5a.css.map": "/app/static/css/main.60092d5a.css.map",
+    "main.c23fcb54.js.map": "/app/static/js/main.c23fcb54.js.map",
     "787.c1112931.chunk.js.map": "/app/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6360566.css",
-    "static/js/main.53bca364.js"
+    "static/css/main.60092d5a.css",
+    "static/js/main.c23fcb54.js"
   ]
 }
