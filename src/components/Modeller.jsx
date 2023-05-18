@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Modeller(){
     return (
     <>
-    <div className='image-zindex'><img src={require('../assets/modeller.jpg')} alt="modeller" className='page-top-image' /></div>
+    <div className='image-zindex'><img src={require('../assets/modeller-banner.jpg')} alt="modeller" className='page-top-image page-top-banner' /></div>
     <div /* className="page-top-margin" */>
         <div className="page-container">
         

@@ -119,3 +119,7 @@
     width: 100%;
     aspect-ratio: 3 / 2;
 }
+
+.page-top-banner{
+    aspect-ratio: 2.5/1 !important;
+}

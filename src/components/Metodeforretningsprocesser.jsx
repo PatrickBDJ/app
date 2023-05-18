@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Metodeforretningsprocesser(){
     return (
     <div /* className="page-top-margin" */>
-        <div className='image-zindex'><img src={require('../assets/metodeforforretningsprocesser.jpg')} alt="modeller" className='page-top-image' /></div>
+        <div className='image-zindex'><img src={require('../assets/metodeforforretningsprocesser-banner.png')} alt="modeller" className='page-top-image page-top-banner' /></div>
         <div className="page-container">
             <h1 className='h1-no-margin-bottom'>Metode for forretningsprocesser</h1>
             <div className="model-page-row">

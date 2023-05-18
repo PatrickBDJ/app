@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Dokumentationsreoler(){
     return(
         <div /* className="page-top-margin" */>
-            <div className='image-zindex'><img src={require('../assets/dokumentationsreol.jpg')} alt="modeller" className='page-top-image' /></div>
+            <div className='image-zindex'><img src={require('../assets/dokumentationsreol-banner.jpg')} alt="modeller" className='page-top-image page-top-banner' /></div>
             <div className="page-container">
                 <h1>Dokumentationsreoler</h1>
                 <div className="model-page-row">
